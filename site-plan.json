@@ -1,0 +1,46 @@
+{
+  "version": "8.0-knowledge-compiler",
+  "source_url": "https://www.energieberatung-landkreiskassel.de/index.php",
+  "site_type": "onepager",
+  "company_name": "Planungsleistung",
+  "industry": "Energieberatung",
+  "archetype": "institutional-modern",
+  "sections": [
+    "hero",
+    "services",
+    "trust",
+    "team",
+    "about",
+    "contact"
+  ],
+  "primary_cta": "Kontakt aufnehmen",
+  "services": [
+    "Energieausweis"
+  ],
+  "design_rules": [
+    {
+      "name": "reference-energy-consulting",
+      "path": "app/knowledge/design-system/seeded/reference-energy-consulting.md",
+      "excerpt": "--- approved_by_user: true industries: [energy consulting, renovation] reference: kaminkehrermeister-forster.de/energieberatung --- # Energy Consulting Structure Persönliche Vorstellung, verständliche Leistungserklärung, Vertrauensaufbau, klarer Projektablauf und direkte Kontaktführung. Struktur übernehmen, visuelle Gestaltung modernisieren und schwache Formulierungen verbessern."
+    },
+    {
+      "name": "reference-psm-ingenieure",
+      "path": "app/knowledge/design-system/seeded/reference-psm-ingenieure.md",
+      "excerpt": "--- approved_by_user: true industries: [engineering, architecture] reference: psmingenieure.de --- # Engineering UX Reference Stärken: moderne UX, hochwertige Projektinszenierung, klare visuelle Hierarchie, großzügige Bildflächen, reduzierte Navigation und ruhige Interaktionen. Referenzen und Projekte früh zeigen. Geeignet für Ingenieur-, Architektur- und Planungsbüros."
+    },
+    {
+      "name": "jonas-design-principles",
+      "path": "app/knowledge/design-system/seeded/jonas-design-principles.md",
+      "excerpt": "--- approved_by_user: true scope: global source: accumulated-user-feedback --- # Jonas Design Principles - Entwürfe müssen sich strukturell unterscheiden; reine Farbvarianten zählen nicht als Varianz. - Keine generische WordPress- oder Baukastenoptik. - Runde Standardkarten nicht als Default verwenden. - Seriös, modern, hochwertig und klar; Animationen dezent und funktional. - Kein dauernd wiederholtes Standardmuster „Text links, Bild rechts“. - Große Typografie, starke visuelle Hierarchie und großzügiger Weißraum sind erwünscht. - Branchenlogik entscheidet über Reihenfolge, Bildsprache, CTA und Vertrauenselemente. - Entwürfe bleiben mit noindex/nofollow geschützt, bis sie live gehen."
+    },
+    {
+      "name": "reference-ing-ka-hero",
+      "path": "app/knowledge/design-system/seeded/reference-ing-ka-hero.md",
+      "excerpt": "--- approved_by_user: true industries: [engineering, consulting] reference: ing-ka.de --- # Rotating Service Hero Hero mit wechselnden Leistungsbegriffen. Bewegung ruhig und typografisch präzise. Als Akzent nutzen, nicht als hektischen Slider. Gut für komplexe Dienstleistungsportfolios."
+    }
+  ],
+  "publishing": {
+    "noindex": true,
+    "provider": "github-pages"
+  }
+}
